@@ -9,12 +9,11 @@ body {
   background-color: #7ae0ee;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .box {
-  float: left;
   background-color: #0162b1;
   color: #fff;
   width: 125px;
@@ -24,8 +23,18 @@ body {
   display: none;
 }
 
+.objects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .show {
   display: block;
+}
+
+#buttons {
+  margin-top: 50px;
 }
 
 .btn {
